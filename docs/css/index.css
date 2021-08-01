@@ -171,44 +171,44 @@ div#mainContents div.topicsBox span{
 
 /* 新着情報 */
 
-div#newTopics{
+section#newTopics{
 	float: left;
 }
-div#newTopics strong{
+section#newTopics strong{
 	font-weight: bold;
 	font-size: 13px;
 	margin-bottom: 8px;
 	display: block;
 	font-size: 14px;
 }
-div#newTopics dl{
+section#newTopics dl{
 	width: 640px;
 	border-bottom: 1px solid #ddd;
 }
-div#newTopics dl dt,
-div#newTopics dl dd{
+section#newTopics dl dt,
+section#newTopics dl dd{
 	padding: 8px 0;
 	border-top: 1px solid #ddd;
 }
-div#newTopics dl dt{
+section#newTopics dl dt{
 	float:left;
-	width:80px;/*80px*/
+	width:100px;/*80px*/
 	padding-left: 10px;
-	clear:both;
 	background: #F6F5F0;
 	color: #7D663A;
+	clear:both;
 }
-div#newTopics dl dd{
-	width:525px;/*525px*/
-	margin-left:90px;
+section#newTopics dl dd{
+	float:right;
+	width:540px;/*525px*/
 	padding-left: 20px;
 	border-left:1px solid #ddd;
 }
-div#newTopics dl dd a{
+section#newTopics dl dd a{
 	color: #666;
 	text-decoration: none;
 }
-div#newTopics dl dd a:hover{
+section#newTopics dl dd a:hover{
 	text-decoration: underline;
 }
 
